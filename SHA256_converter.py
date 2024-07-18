@@ -17,7 +17,7 @@ def sha256_encode_xml(xml_string):
     return hex_digest
 
 
-
+'''
 # Example usage
 if __name__ == "__main__":
     print("Enter the XML string (end with an empty line):")
@@ -31,4 +31,4 @@ if __name__ == "__main__":
     xml_string = "\n".join(lines)
     encoded_string = sha256_encode_xml(xml_string)
     print(f"SHA-256 encoded XML content: {encoded_string}")
-
+'''
